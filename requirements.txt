@@ -2,5 +2,4 @@ jupyter-book
 matplotlib
 ghp-import
 numpy
-ipywidgets
 pandas
