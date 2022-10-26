@@ -1,8 +1,6 @@
-# Bienvenidos a mi libro sobre Fundamentos de Macroeconomía 
+# Fundamentos de Macroeconomía (1REI05)
 
-Bienvenidos al libro virtual sobre el curso de Fundamentos de Macroeconomía de la Pontifica Universidad Católica del Perú dictado por el profesor Alexander Quispe. El presente trabajo incluye los primeros cinco reportes realizados en el curso por la alumna María Fernanda Carrillo. 
-
-¡Espero que el contenido teórico y práctico de este libro virtual sea de su agrado!
+Este book se ha realizado como un proyecto del curso de Fundamentos de Macroeconomía (1REI05) de la Pontifica Universidad Católica, dictado por el profesor Alexander Quispe. Bajo su consigna se han incluido los 5 primeros reportes realizados en su 
 
 ```{tableofcontents}
 ```
