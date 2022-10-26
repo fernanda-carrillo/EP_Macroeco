@@ -3,6 +3,4 @@ matplotlib
 ghp-import
 numpy
 ipywidgets
-sympy
 pandas
-causalgraphicalmodels
