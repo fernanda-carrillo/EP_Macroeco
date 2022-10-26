@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Fundamentos de Macroeconomía
-author: Angela Rodríguez Fernández
+author: María Fernanda Carrillo
 logo: logomacro.jpg
 
 # Force re-execution of notebooks on each build.
