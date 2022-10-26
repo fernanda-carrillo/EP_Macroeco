@@ -696,7 +696,7 @@ ax.legend()
 plt.show()
 
 
-# # Puntos extra
+# ## Puntos extra
 
 # ### 1. A partir del siguiente sistema de ecuaciones que representan el modelo IS-LM
 # #### 1.1 Ecuaciones de Ingreso $(Y^e)$ y tasa de interes $(r^e)$ de equilibrio (escriba paso a paso la derivacion de estas ecuaciones).
