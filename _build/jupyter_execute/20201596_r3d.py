@@ -102,7 +102,7 @@ from causalgraphicalmodels import CausalGraphicalModel
 
 # ### 5. Grafique Equilibrio en el mercado
 
-# In[4]:
+# In[3]:
 
 
 # Parameters
@@ -127,7 +127,7 @@ MS = MS_0 / P
 MS
 
 
-# In[5]:
+# In[7]:
 
 
 # Equilibrio en el mercado de dinero
@@ -164,7 +164,7 @@ plt.show()
 
 # De acuerdo a Jiménez, cuanto el ingreso de la producción aumenta, la demanda monetaria también aumenta (2020, pp. 86). Entonces en el caso contrario, cuando el ingreso de la producción disminuye, la demanda monetaria también disminuye y por ende la tasa de interés también tiene que disminuir para regresar el equilibrio. 
 
-# In[6]:
+# In[5]:
 
 
 # Parameters
@@ -189,7 +189,7 @@ MS = MS_0 / P
 MS
 
 
-# In[7]:
+# In[6]:
 
 
 # Parameters con cambio en el nivel del producto
@@ -404,7 +404,8 @@ MS_1 = MS_0 / P_1
 MS
 
 
-# In[14]:
+# In[22]:
+
 
 
 # Creamos el seteo para la figura 
@@ -466,7 +467,7 @@ plt.show()
 # $$ r = - \frac{1}{j}\frac{M^s_0}{Pj} + \frac{k}{j}Y $$ 
 # 
 
-# In[15]:
+# In[23]:
 
 
 #1----------------------Equilibrio mercado monetario
@@ -530,7 +531,7 @@ def i_LM( k, j, Ms, P, Y):
 i = i_LM( k, j, Ms, P, Y)
 
 
-# In[16]:
+# In[24]:
 
 
 # Gráfico de la derivación de la curva LM a partir del equilibrio en el mercado monetario
@@ -605,7 +606,7 @@ plt.show()
 # $$ M^s_0↓ → \frac{M^s_0}{P_0}↓ → r↓ → M^d > M^s → r↑ $$
 # 
 
-# In[17]:
+# In[25]:
 
 
 #--------------------------------------------------
@@ -644,7 +645,7 @@ def i_LM_Ms( k, j, Ms, P, Y):
 i_Ms = i_LM_Ms( k, j, Ms, P, Y)
 
 
-# In[18]:
+# In[26]:
 
 
 # Dimensiones del gráfico
@@ -672,7 +673,7 @@ plt.show()
 
 # $$ k↑ → \frac{k}{j}↑ → M^d > M^s →  r↑ $$
 
-# In[19]:
+# In[27]:
 
 
 #--------------------------------------------------
@@ -711,7 +712,7 @@ def i_LM_Ms( k, j, Ms, P, Y):
 i_Ms = i_LM_Ms( k, j, Ms, P, Y)
 
 
-# In[20]:
+# In[37]:
 
 
 # Dimensiones del gráfico

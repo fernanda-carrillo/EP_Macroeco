@@ -144,7 +144,7 @@ df_r #∆Y/∆Go
 
 # - Demanda Agregada
 
-# In[5]:
+# In[8]:
 
 
 # Parámetros
@@ -198,7 +198,7 @@ DA_G = DA_K(Co, Io, Go, Xo, h, r, b, m, t, Y)
 
 # - Curva IS
 
-# In[6]:
+# In[9]:
 
 
 # Parámetros
@@ -225,7 +225,7 @@ def r_IS(b, m, t, Co, Io, Go, Xo, h, Y):
 r = r_IS(b, m, t, Co, Io, Go, Xo, h, Y)
 
 
-# In[7]:
+# In[14]:
 
 
 # Gráfico de la derivación de la curva IS a partir de la igualdad (DA = Y)
@@ -297,7 +297,7 @@ plt.show()
 # 
 # $$ r = \frac{1}{h}(C_0 + G_0 + I_0 + X_0) - \frac{1-(b-m(1-t)}{h}(Y)$$
 
-# In[8]:
+# In[15]:
 
 
 # Parámetros
@@ -324,7 +324,7 @@ def r_IS(b, m, t, Co, Io, Go, Xo, h, Y):
 IS_IS = r_IS(b, m, t, Co, Io, Go, Xo, h, Y)
 
 
-# In[9]:
+# In[16]:
 
 
 # Gráfico de la curva IS
@@ -353,7 +353,7 @@ plt.show()
 
 # ## c. Desequilibrios en el mercado de bienes
 
-# In[10]:
+# In[17]:
 
 
 # Parámetros
@@ -380,7 +380,7 @@ def r_IS(b, m, t, Co, Io, Go, Xo, h, Y):
 r1 = r_IS(b, m, t, Co, Io, Go, Xo, h, Y)
 
 
-# In[11]:
+# In[19]:
 
 
 #Dimensiones:
@@ -430,7 +430,7 @@ plt.show()
 
 # ### Gráfico
 
-# In[12]:
+# In[20]:
 
 
 #--------------------------------------------------
@@ -474,7 +474,7 @@ def r_IS(b, m, t, Co, Io, Go, Xo, h, Y):
 r_G = r_IS(b, m, t, Co, Io, Go, Xo, h, Y)
 
 
-# In[13]:
+# In[21]:
 
 
 # Gráfico
@@ -506,7 +506,7 @@ plt.show()
 
 # ### Grafico:
 
-# In[14]:
+# In[23]:
 
 
 #--------------------------------------------------
@@ -550,7 +550,7 @@ def r_IS(b, m, t, Co, Io, Go, Xo, h, Y):
 r_t = r_IS(b, m, t, Co, Io, Go, Xo, h, Y)
 
 
-# In[15]:
+# In[24]:
 
 
 # Gráfico
@@ -582,7 +582,7 @@ plt.show()
 
 # ### Gráfico:
 
-# In[16]:
+# In[157]:
 
 
 #--------------------------------------------------
@@ -626,7 +626,7 @@ def r_IS(b, m, t, Co, Io, Go, Xo, h,Y):
 IS_b = r_IS(b, m, t, Co, Io, Go, Xo, h, Y)
 
 
-# In[17]:
+# In[158]:
 
 
 # Gráfico

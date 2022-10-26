@@ -180,6 +180,7 @@ P_AS = P_AS(Pe, _Y, Y, θ)
 # In[4]:
 
 
+
 # definir la función line_intersection
 def line_intersection(line1, line2):
     xdiff = (line1[0][0] - line1[1][0], line2[0][0] - line2[1][0])
@@ -437,7 +438,6 @@ ax.plot(Y, r-Go, label="LM_P", color = "#B5EAD7", linestyle ='dashed')  #LM_P
 # Título, ejes y leyenda
 ax.set(title="IS-LM Model", xlabel= r'Y', ylabel= r'r')
 ax.legend()
-
 
 
 # In[10]:

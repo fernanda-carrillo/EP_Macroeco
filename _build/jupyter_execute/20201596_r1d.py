@@ -43,7 +43,7 @@ from causalgraphicalmodels import CausalGraphicalModel
 
 # En esta función se representa como parte del ingreso se utiliza en los gastos de consumo. El consumo fijo representa al consumo autónomo, aquel que es fijo y no cambia, utilizado para servicios como la renta o la comida y la b representa a la propesión marginal a consumir, es decir aquella que es variable.
 
-# In[3]:
+# In[9]:
 
 
 # Parámetros
@@ -65,7 +65,7 @@ def C(Co, b, t, Y):
 C = C(Co, b, t, Y)
 
 
-# In[4]:
+# In[13]:
 
 
 # Gráfico
@@ -104,7 +104,7 @@ plt.show()
 
 # En esta función se encuentra a la inversión autónoma (I0) como valor fijo, y el h que que representa la sensibilidad (que va en un rango de 0,1) que muestran los inversionistas ante la subida o bajada de la tasa de interés (r). En este sentido, la función nos permite entender como los gastos de inversión aumenta el stock de la economía, provenientes de los empresarios, y como las expectativas y especulaciones afectan el desarrollo y producción de la economía. Dicha inversión además se ve estimulada al ser menor la tasa de interés.
 
-# In[5]:
+# In[15]:
 
 
 # Parámetros
@@ -130,7 +130,7 @@ F_DI
  
 
 
-# In[6]:
+# In[16]:
 
 
 # Gráfico
@@ -195,7 +195,7 @@ ax.yaxis.set_major_locator(plt.NullLocator())
 
 # - Gráfico con descripciones
 
-# In[7]:
+# In[19]:
 
 
 # Parámetros
@@ -223,7 +223,7 @@ def DA_K(Co, Io, Go, Xo, h, r, b, m, t, Y):
 DA_IS_K = DA_K(Co, Io, Go, Xo, h, r, b, m, t, Y)
 
 
-# In[8]:
+# In[20]:
 
 
 # Recta de 45°
@@ -237,7 +237,7 @@ def L_45(a, Y):
 L_45 = L_45(a, Y)
 
 
-# In[9]:
+# In[22]:
 
 
 # Gráfico
@@ -320,7 +320,7 @@ plt.show()
 
 # ### Gráfico
 
-# In[10]:
+# In[23]:
 
 
 #--------------------------------------------------
@@ -363,7 +363,7 @@ def DA_K(Co, Io, Go, Xo, h, r, b, m, t, Y):
 DA_G = DA_K(Co, Io, Go, Xo, h, r, b, m, t, Y)
 
 
-# In[11]:
+# In[24]:
 
 
 # líneas punteadas autómaticas
@@ -398,7 +398,7 @@ intersec = line_intersection((A, B), (C, D))
 intersec # (y,x)
 
 
-# In[12]:
+# In[25]:
 
 
 # coordenadas de las curvas (x,y)
@@ -414,7 +414,7 @@ intersec_G = line_intersection((A, B), (C, D))
 intersec_G # (y,x)
 
 
-# In[13]:
+# In[29]:
 
 
 # Gráfico
@@ -464,7 +464,7 @@ plt.show()
 
 # ### Matemáticamente: $∆t < 0  →  ¿∆Y?$
 
-# In[14]:
+# In[36]:
 
 
 Co, Io, Go, Xo, h, r, b, m, t = symbols('Co Io Go Xo h r b m t')
@@ -499,7 +499,7 @@ df_t #∆Y/∆t
 
 # ### Gráfico:
 
-# In[15]:
+# In[31]:
 
 
 ##--------------------------------------------------
@@ -542,7 +542,7 @@ def DA_K(Co, Io, Go, Xo, h, r, b, m, t, Y):
 DA_t = DA_K(Co, Io, Go, Xo, h, r, b, m, t, Y)
 
 
-# In[16]:
+# In[39]:
 
 
 # Gráfico
@@ -590,7 +590,7 @@ plt.show()
 # A:
 #    $$DA = (Co + Io + Go + Xo - h*r) + [((b - m)*(1 - t)-g)]*Y$$
 
-# In[17]:
+# In[41]:
 
 
 # Parámetros
@@ -619,7 +619,7 @@ def DA_C(Co, Io, Go, Xo, h, r, b, m, t, g, Y):
 DA_Cont = DA_C(Co, Io, Go, Xo, h, r, b, m, t, g, Y)
 
 
-# In[18]:
+# In[44]:
 
 
 # Gráfico
@@ -723,7 +723,7 @@ plt.show()
 
 # ### Gráficos
 
-# In[19]:
+# In[46]:
 
 
 # Parámetros
@@ -763,7 +763,7 @@ def DA_C(Co, Io, Go, Xo, h, r, b, m, t, g, Y):
 DA_C_G = DA_C(Co, Io, Go, Xo, h, r, b, m, t, g, Y)
 
 
-# In[20]:
+# In[47]:
 
 
 # líneas punteadas autómaticas
@@ -810,7 +810,7 @@ intersec_G = line_intersection((A, B), (C, D))
 intersec_G # (y,x)
 
 
-# In[21]:
+# In[51]:
 
 
 # Gráfico
@@ -867,7 +867,7 @@ plt.show()
 
 # ### Matemático: $$ΔXo < 0 → ¿ΔY?$$
 
-# In[22]:
+# In[53]:
 
 
 # Diferenciales
@@ -881,7 +881,6 @@ f = (Co + Io + Go + Xo - h*r)/(1 - (b - m)*(1 - t) + g)
     # función diferencial
 df_Xo = diff(f, Xo) # diff(función, variable_analizar
 df_Xo #∆Y/∆Go
-
 
 
 # Considerdo el diferencial obtenido:
@@ -898,7 +897,7 @@ df_Xo #∆Y/∆Go
 
 # ### Gráfico:
 
-# In[23]:
+# In[56]:
 
 
 # Parámetros
@@ -938,7 +937,7 @@ def DA_C(Co, Io, Go, Xo, h, r, b, m, t, g, Y):
 DA_C_X = DA_C(Co, Io, Go, Xo, h, r, b, m, t, g, Y)
 
 
-# In[24]:
+# In[57]:
 
 
 # líneas punteadas autómaticas
@@ -984,7 +983,7 @@ intersec_X = line_intersection((A, B), (C, D))
 intersec_X # (y,x)
 
 
-# In[25]:
+# In[61]:
 
 
 # Gráfico
