@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Segundo reporte
+# # 2. Mercado de bienes
 
 # In[1]:
 
@@ -9,7 +9,7 @@
 # María Fernanda Carrillo 
 
 
-# # Parte I: Reporte
+# ## Parte I: Reporte
 
 # En este artículo la pregunta fundamental de investigación es que busca explicar cuáles fueron los métodos de restablecimiento de la política monetaria (tras explicar brevemente las causas) tras los regulares procesos de inflación e hiperinflación desde los años 1970 hasta los 90’s; así como el detallar por qué todos esos procesos y/o intentos por estabilizar la economía resultaron en fracasos y porqué fue que el proyecto de Fujimori finalmente funcionó. 
 # 
@@ -26,7 +26,7 @@
 # 
 # 
 
-# # Parte II: Código
+# ## Parte II: Código
 
 # In[2]:
 

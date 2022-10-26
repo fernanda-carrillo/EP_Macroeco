@@ -1,13 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# # 1. Modelo Ingreso-Gasto
+
 # In[1]:
 
 
 #20201596 María Fernanda Carrillo
 
 
-# # I. REPORTE
+# ## I. REPORTE
 
 # La pregunta de investigación sobre la cual Dancourt centra la investigación es la siguiente: cuáles fueron las causas y las consecuencias e impacto inflacionario en la economía peruana del proceso de ‘vacas flacas’ (y lo recesivo que resultó) que el Perú pasó entre los años 2013—15’; asimismo discute las medidas tomadas por el Estado y brinda asesoramiento sobre cuáles han de ser los próximos movimientos del futuro gobierno peruano con el fin de responder efectivamente a este fenómeno y las desastrosas consecuencias que tiene en el país. 
 # 
@@ -23,7 +25,7 @@
 # (Fuente: https://www.bcrp.gob.pe/docs/Publicaciones/Revista-Estudios-Economicos/31/ree-31-rossini-vega-quispe-perez.pdf)
 # 
 
-# # II. CÓDIGO
+# ## II. CÓDIGO
 
 # In[2]:
 

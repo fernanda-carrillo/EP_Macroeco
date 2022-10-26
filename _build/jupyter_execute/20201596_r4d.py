@@ -1,13 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# # 4. Modelo IS LM
+
 # In[1]:
 
 
 # María Fernanda Carrillo (20201596)
 
 
-# # Parte I: Reporte
+# ## Parte I: Reporte
 
 # La pregunta de investigación que el autor se realiza es el análisis de la política monetaria aplicada en el año 2008-2009 para hacer frente a las consecuencias que había dejado la crisis internacional en la economía estadounidense; la cual curiosamente tenía componentes no convencionales, que expandían el modelo tradicional de demanda y oferta agregada. A cargo del Sistema de Reserva Federal, es que se menciona que se toman medidas poco habituales dentro del modelo de IS-LM, pues lo que efectuaron fue una administración de una tasa interés de corto plazo, así como la implementación de una participación directa en el mercado de bonos de largo plazo a los mercados existentes. 
 # 
@@ -34,13 +36,13 @@ import pandas as pd
 #from causalgraphicalmodels import CausalGraphicalModel
 
 
-# # Parte II: Código
+# ## Parte II: Código
 
 # Trabajo conjunto con Angela Rodriguez
 
-# ## A partir del siguiente sistema de ecuaciones que representan el modelo IS-LM
+# ### A partir del siguiente sistema de ecuaciones que representan el modelo IS-LM
 
-# ### Ecuaciones de Ingreso (Ye) y la tasa de interés (re) de equilibrio
+# #### Ecuaciones de Ingreso (Ye) y la tasa de interés (re) de equilibrio
 
 # La ecuación de la Curva IS es: 
 # 
@@ -68,7 +70,7 @@ import pandas as pd
 # 
 # $$ r^e = \frac{kB_0}{kh + jB_1} + (\frac{B_1}{kh + jB_1})\frac{Ms_0}{P_0} $$
 
-# ### Grafico del equilibrio simultáneo en los mercados de bienes y de dinero
+# #### Grafico del equilibrio simultáneo en los mercados de bienes y de dinero
 
 # In[3]:
 
@@ -173,21 +175,21 @@ Y_eq = (k*beta_0)/(k*h + j*beta_1) - ( beta_1 / (k*h + j*beta_1) )*(Ms/P)
 r_eq = (j*beta_0)/(k*h + j*beta_1) + ( h / (k*h + j*beta_1) )*(Ms/P)
 
 
-# ## 2. Estática Comparativa
+# ### 2. Estática Comparativa
 
-# ### Efectos sobre Y y r en una disminución del gasto fiscal    ( ∆Go < 0)
+# #### Efectos sobre Y y r en una disminución del gasto fiscal    ( ∆Go < 0)
 
-# ### Intuición: Revisar
+# #### Intuición: Revisar
 
-# #### Mercado de bienes (IS):
+# ##### Mercado de bienes (IS):
 
 # $$ Go↓ → DA↓ → DA < Y → Y↓ $$
 
-# #### Mercado de dinero (Lm): 
+# ##### Mercado de dinero (Lm): 
 
 # $$ Y↓ → Md↓ → Md < Ms → r↓ $$
 
-# ### Matemáticamente: 
+# #### Matemáticamente: 
 
 # In[7]:
 
@@ -237,7 +239,7 @@ print("El Diferencial de la tasa de interes con respecto al diferencial del gast
 # 
 # $$ ∆r < 0 $$
 
-# ### Gráficos:
+# #### Gráficos:
 
 # In[6]:
 

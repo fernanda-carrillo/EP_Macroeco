@@ -1,13 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# # 5. Modelo DA OA
+
 # In[1]:
 
 
 # María Fernanda Carrillo 20201596
 
 
-# # Parte I: Reporte
+# ## Parte I: Reporte
 
 # La materia de investigación del artículo es por sobre todas las medidas que tomó el Banco Central de Reserva del Perú a inicios de los 00s: el implementar un sistema de metas de inflación y la acumulación de suficientes reservas de divisas. Y del cómo estas medidas, y las que derivaron de estas, fueron realmente efectivas en la estabilidad macroeconómica que el Perú ha tenido en la última década (frente a los shocks internacionales), y del cómo sobre todo si es que fueron las medidas per se las que permitieron esto o fue el contexto internacional lo que ayudó igualmente. Siendo que de por sí el Perú es un país el cual sobre todo se aplicaba una política procíclica, y nuestra economía se basa fundamentalmente en la exportación de materias primas es que las recesiones se relacionaban con el agotamiento de fuentes bancarias externas locales. 
 # 
@@ -28,7 +30,7 @@
 # Trujillo:
 # https://repositorio.ucv.edu.pe/bitstream/handle/20.500.12692/13893/Trujillo_FWF.pdf?sequence=1&isAllowed=y
 
-# # Parte II: Código
+# ## Parte II: Código
 
 # Trabajo con Ángela Rodriguez (20200748)
 
@@ -44,7 +46,7 @@ import pandas as pd
 #from causalgraphicalmodels import CausalGraphicalModel
 
 
-# ## Encuentre las ecuaciones de Ingreso  y tasa de interés  de equilibrio (Escriba paso a paso la derivación de estas ecuaciones).
+# ### Encuentre las ecuaciones de Ingreso  y tasa de interés  de equilibrio (Escriba paso a paso la derivación de estas ecuaciones).
 
 # - Demanda Agregada (DA): 
 # 
@@ -114,7 +116,7 @@ import pandas as pd
 # 
 # $$ P^e = (\frac{h Mo^s + jB_o}{h} - \frac{jB_1 + hk}{h}) * (\frac{P - P^e - θ\bar{Y}}{θ}) $$
 
-# ## Grafique el equilibrio simultáneo en el modelo DA-OA.
+# ### Grafique el equilibrio simultáneo en el modelo DA-OA.
 
 # In[2]:
 
