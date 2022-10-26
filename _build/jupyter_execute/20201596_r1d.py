@@ -883,6 +883,7 @@ df_Xo = diff(f, Xo) # diff(función, variable_analizar
 df_Xo #∆Y/∆Go
 
 
+
 # Considerdo el diferencial obtenido:
 # 
 # $$ \frac{∆Y}{∆X_0} = \frac{1}{1 - (b - m)(1 - t) + g} $$

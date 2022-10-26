@@ -23,7 +23,7 @@ import numpy as np
 import sympy as sy
 from sympy import *
 import pandas as pd
-from causalgraphicalmodels import CausalGraphicalModel
+#from causalgraphicalmodels import CausalGraphicalModel
 ------------------
 
 [0;31m---------------------------------------------------------------------------[0m

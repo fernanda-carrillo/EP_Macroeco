@@ -161,7 +161,7 @@ ax.legend()
 plt.show()
 
 
-# In[5]:
+# In[ ]:
 
 
 # Beta_0 y beta_1
@@ -189,7 +189,7 @@ r_eq = (j*beta_0)/(k*h + j*beta_1) + ( h / (k*h + j*beta_1) )*(Ms/P)
 
 # ### Matemáticamente: 
 
-# In[6]:
+# In[7]:
 
 
 # nombrar variables como símbolos
@@ -207,7 +207,7 @@ r_eq = (k*beta_0)/(k*h + j*beta_1) - ( beta_1 / (k*h + j*beta_1) )*(Ms/P)
 Y_eq = (j*beta_0)/(k*h + j*beta_1) + ( h / (k*h + j*beta_1) )*(Ms/P)
 
 
-# In[7]:
+# In[8]:
 
 
 df_Y_eq_Go = diff(Y_eq, Go)
@@ -222,7 +222,7 @@ print("El Diferencial del producto con respecto al diferencial del gasto autonom
 # 
 # $$ ∆Y < 0 $$
 
-# In[8]:
+# In[9]:
 
 
 df_r_eq_Go = diff(r_eq, Go)
@@ -239,7 +239,7 @@ print("El Diferencial de la tasa de interes con respecto al diferencial del gast
 
 # ### Gráficos:
 
-# In[9]:
+# In[6]:
 
 
 #1--------------------------------------------------
@@ -292,7 +292,7 @@ def i_LM( k, j, Ms, P, Y):
 i = i_LM( k, j, Ms, P, Y)
 
 
-# In[10]:
+# In[7]:
 
 
 #--------------------------------------------------
@@ -309,7 +309,7 @@ def r_IS(b, m, t, Co, Io, Go, Xo, h, Y):
 r_G = r_IS(b, m, t, Co, Io, Go, Xo, h, Y)
 
 
-# In[11]:
+# In[12]:
 
 
 # Gráfico
@@ -363,7 +363,7 @@ plt.show()
 
 # ### Matemáticamente: Revisar 
 
-# In[12]:
+# In[13]:
 
 
 # nombrar variables como símbolos
@@ -381,7 +381,7 @@ r_eq = (k*beta_0)/(k*h + j*beta_1) - ( beta_1 / (k*h + j*beta_1) )*(Ms/P)
 Y_eq = (j*beta_0)/(k*h + j*beta_1) + ( h / (k*h + j*beta_1) )*(Ms/P)
 
 
-# In[13]:
+# In[14]:
 
 
 df_Y_eq_Ms = diff(Y_eq, Ms)
@@ -396,7 +396,7 @@ print("El Diferencial del Producto con respecto al diferencial de la masa moneta
 # 
 # $$ ∆Y < 0 $$
 
-# In[14]:
+# In[15]:
 
 
 df_r_eq_Ms = diff(r_eq, Ms)
@@ -413,7 +413,7 @@ print("El Diferencial de la tasa de interes con respecto al diferencial de la ma
 
 # ### Gráfico:
 
-# In[15]:
+# In[14]:
 
 
 #1--------------------------------------------------
@@ -466,7 +466,7 @@ def i_LM( k, j, Ms, P, Y):
 i = i_LM( k, j, Ms, P, Y)
 
 
-# In[16]:
+# In[15]:
 
 
 # Definir SOLO el parámetro cambiado
@@ -534,7 +534,7 @@ plt.show()
 
 # ### Matemáticamente: REVISAR!
 
-# In[18]:
+# In[19]:
 
 
 # nombrar variables como símbolos
@@ -552,7 +552,7 @@ r_eq = (k*beta_0)/(k*h + j*beta_1) - ( beta_1 / (k*h + j*beta_1) )*(Ms/P)
 Y_eq = (j*beta_0)/(k*h + j*beta_1) + ( h / (k*h + j*beta_1) )*(Ms/P)
 
 
-# In[19]:
+# In[20]:
 
 
 df_Y_eq_t = diff(Y_eq, t)
@@ -567,7 +567,7 @@ print("El Diferencial del producto con respecto al diferencial de la tasa imposi
 # 
 # $$ ∆Y < 0 $$
 
-# In[20]:
+# In[21]:
 
 
 df_r_eq_t = diff(r_eq, t)
@@ -584,7 +584,7 @@ print("El Diferencial de la tasa de interes con respecto al diferencial a la tas
 
 # ### Gráfico: 
 
-# In[21]:
+# In[20]:
 
 
 #1--------------------------------------------------
@@ -637,7 +637,7 @@ def i_LM( k, j, Ms, P, Y):
 i = i_LM( k, j, Ms, P, Y)
 
 
-# In[22]:
+# In[21]:
 
 
 #--------------------------------------------------
@@ -654,7 +654,7 @@ def r_IS(b, m, t, Co, Io, Go, Xo, h, Y):
 r_t = r_IS(b, m, t, Co, Io, Go, Xo, h, Y)
 
 
-# In[23]:
+# In[25]:
 
 
 # Gráfico
@@ -751,7 +751,7 @@ plt.show()
 
 # #### 1.2 Grafique el equilibrio simultáneo en los mercados de bienes y de dinero.
 
-# In[24]:
+# In[54]:
 
 
 #--------------------------------------------------
@@ -803,7 +803,7 @@ def i_LM_2(k, j, Ms, P, Y, π):
 i_2 = i_LM_2( k, j, Ms, P, Y, π)
 
 
-# In[25]:
+# In[55]:
 
 
 # Gráfico del modelo IS-LM
@@ -834,7 +834,7 @@ ax.legend()
 plt.show()
 
 
-# In[26]:
+# In[56]:
 
 
 # nombrar variables como símbolos
@@ -863,7 +863,7 @@ Y_eq = ((j*beta_0)/(k*h+j*beta_1)) + (Ms/P)*(h/(k*h+j*beta_1)) + (j*h*π/(k*h+j*
 # 
 # - Matemática:
 
-# In[27]:
+# In[57]:
 
 
 # nombrar variables como símbolos
@@ -881,7 +881,7 @@ r_eq = -(Ms/P)*(beta_1/(k*h+j*beta_1)) + ((k*beta_0)/k*h+j*beta_1) - ((beta_1*π
 Y_eq = ((j*beta_0)/(k*h+j*beta_1)) + (Ms/P)*(h/(k*h+j*beta_1)) + (j*h*π/(k*h+j*beta_1))
 
 
-# In[28]:
+# In[58]:
 
 
 df_Y_eq_P = diff(Y_eq, P)
@@ -896,7 +896,7 @@ print("El Diferencial del Producto con respecto al diferencial del nivel de prec
 # 
 # $$ ∆Y > 0 $$
 
-# In[29]:
+# In[59]:
 
 
 df_r_eq_P = diff(r_eq, P)
@@ -911,7 +911,7 @@ print("El Diferencial de la tasa de interés con respecto al diferencial del niv
 # 
 # $$ ∆r < 0 $$
 
-# In[30]:
+# In[60]:
 
 
 #--------------------------------------------------
@@ -977,7 +977,7 @@ def i_LM_2(k, j, Ms, P, Y, π):
 i_2_P = i_LM_2( k, j, Ms, P, Y, π)
 
 
-# In[31]:
+# In[61]:
 
 
 # Gráfico del modelo IS-LM
@@ -1025,7 +1025,7 @@ plt.show()
 # 
 # - Matemática:
 
-# In[32]:
+# In[62]:
 
 
 # nombrar variables como símbolos
@@ -1043,7 +1043,7 @@ r_eq = -(Ms/P)*(beta_1/(k*h+j*beta_1)) + ((k*beta_0)/k*h+j*beta_1) - ((beta_1*π
 Y_eq = ((j*beta_0)/(k*h+j*beta_1)) + (Ms/P)*(h/(k*h+j*beta_1)) + (j*h*π/(k*h+j*beta_1))
 
 
-# In[33]:
+# In[63]:
 
 
 df_Y_eq_π = diff(Y_eq, π)
@@ -1058,7 +1058,7 @@ print("El Diferencial del Producto con respecto al diferencial del nivel de infl
 # 
 # $$ ∆Y < 0 $$
 
-# In[34]:
+# In[64]:
 
 
 df_r_eq_π = diff(r_eq, π)
@@ -1075,7 +1075,7 @@ print("El Diferencial de la tasa de interés con respecto al diferencial del niv
 
 # - Gráfico:
 
-# In[35]:
+# In[65]:
 
 
 #--------------------------------------------------
@@ -1141,7 +1141,7 @@ def i_LM_2(k, j, Ms, P, Y, π):
 i_2_π = i_LM_2( k, j, Ms, P, Y, π)
 
 
-# In[36]:
+# In[67]:
 
 
 # Gráfico del modelo IS-LM

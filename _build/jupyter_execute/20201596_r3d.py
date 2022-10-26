@@ -407,7 +407,6 @@ MS
 # In[22]:
 
 
-
 # Creamos el seteo para la figura 
 fig, ax1 = plt.subplots(figsize=(10, 8))
 

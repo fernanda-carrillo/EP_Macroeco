@@ -116,7 +116,7 @@ import pandas as pd
 
 # ## Grafique el equilibrio simultáneo en el modelo DA-OA.
 
-# In[3]:
+# In[2]:
 
 
 # Demanda Agregada
@@ -177,8 +177,7 @@ def P_AS(Pe, _Y, Y, θ):
 P_AS = P_AS(Pe, _Y, Y, θ)
 
 
-# In[4]:
-
+# In[3]:
 
 
 # definir la función line_intersection
@@ -211,7 +210,7 @@ intersec = line_intersection((A, B), (C, D))
 intersec # (y,x)
 
 
-# In[5]:
+# In[7]:
 
 
 # Gráfico del modelo DA-OA
@@ -264,7 +263,7 @@ plt.show()
 
 # #### Matemáticamente: 
 
-# In[6]:
+# In[5]:
 
 
 # nombrar variables como símbolos
@@ -282,7 +281,7 @@ Y_eq = (k*beta_0)/(k*h + j*beta_1) - ( beta_1 / (k*h + j*beta_1) )*(Ms/P)
 r_eq = (j*beta_0)/(k*h + j*beta_1) + ( h / (k*h + j*beta_1) )*(Ms/P)
 
 
-# In[7]:
+# In[6]:
 
 
 # nombrar variables como símbolos de IS
@@ -309,7 +308,7 @@ r_eq = (j*beta_0)/(k*h + j*beta_1) + ( h / (k*h + j*beta_1) )*(Ms - P_eq)
 #((h*Ms+j*beta_0)/h) - ((j*beta_1+h*r)/h)*((P-Pe-θ*_Y)/θ)
 
 
-# In[8]:
+# In[7]:
 
 
 # Efecto del cambio de Precio esperado sobre Tasa de Interés en el modelo DA-OA
@@ -440,7 +439,8 @@ ax.set(title="IS-LM Model", xlabel= r'Y', ylabel= r'r')
 ax.legend()
 
 
-# In[10]:
+
+# In[14]:
 
 
 #1--------------------------
@@ -542,7 +542,7 @@ ax.legend()
 plt.show()
 
 
-# In[11]:
+# In[15]:
 
 
 # líneas punteadas autómaticas
@@ -577,7 +577,7 @@ intersec = line_intersection((A, B), (C, D))
 intersec # (y,x)
 
 
-# In[12]:
+# In[39]:
 
 
 # Dos gráficos en un solo cuadro
@@ -653,7 +653,7 @@ plt.show
 
 # #### Matemáticamente: 
 
-# In[13]:
+# In[17]:
 
 
 # nombrar variables como símbolos de IS
@@ -680,7 +680,7 @@ r_eq = (j*beta_0)/(k*h + j*beta_1) + ( h / (k*h + j*beta_1) )*(Ms - P_eq)
 #((h*Ms+j*beta_0)/h) - ((j*beta_1+h*r)/h)*((P-Pe-θ*_Y)/θ)
 
 
-# In[14]:
+# In[18]:
 
 
 # Efecto del cambio de Precio esperado sobre Tasa de Interés en el modelo DA-OA
@@ -724,7 +724,7 @@ print("El Diferencial del nivel de precios con respecto al diferencial de la mas
 
 # #### Gráfico: ARREGLAR GRÁFICO
 
-# In[15]:
+# In[19]:
 
 
 # IS-LM
@@ -792,7 +792,7 @@ def i_LM_Ms( k, j, Ms, P, Y):
 i_Ms = i_LM_Ms( k, j, Ms, P, Y)
 
 
-# In[16]:
+# In[20]:
 
 
 #DA-OA
@@ -870,7 +870,7 @@ def P_AS(Pe, _Y, Y, θ):
 P_AS = P_AS(Pe, _Y, Y, θ)
 
 
-# In[17]:
+# In[21]:
 
 
 # líneas punteadas autómaticas
@@ -905,7 +905,7 @@ intersec = line_intersection((A, B), (C, D))
 intersec # (y,x)
 
 
-# In[18]:
+# In[33]:
 
 
 # Dos gráficos en un solo cuadro
@@ -981,7 +981,7 @@ plt.show()
 
 # #### Matemáticamente: 
 
-# In[19]:
+# In[23]:
 
 
 # nombrar variables como símbolos de IS
@@ -1008,7 +1008,7 @@ r_eq = (j*beta_0)/(k*h + j*beta_1) + ( h / (k*h + j*beta_1) )*(Ms - P_eq)
 #((h*Ms+j*beta_0)/h) - ((j*beta_1+h*r)/h)*((P-Pe-θ*_Y)/θ)
 
 
-# In[20]:
+# In[24]:
 
 
 # Efecto del cambio de Precio esperado sobre Tasa de Interés en el modelo DA-OA
@@ -1052,7 +1052,7 @@ print("El Diferencial del nivel de precios con respecto al diferencial de la tas
 
 # #### Gráfico
 
-# In[21]:
+# In[25]:
 
 
 # IS-LM
@@ -1120,7 +1120,7 @@ def r_IS(b, m, t, Co, Io, Go, Xo, h, Y):
 r_t = r_IS(b, m, t, Co, Io, Go, Xo, h, Y)
 
 
-# In[22]:
+# In[26]:
 
 
 #DA-OA
@@ -1201,7 +1201,7 @@ def P_AS(Pe, _Y, Y, θ):
 P_AS = P_AS(Pe, _Y, Y, θ)
 
 
-# In[23]:
+# In[27]:
 
 
 # líneas punteadas autómaticas
@@ -1236,7 +1236,7 @@ intersec = line_intersection((A, B), (C, D))
 intersec # (y,x)
 
 
-# In[24]:
+# In[34]:
 
 
 # Dos gráficos en un solo cuadro
